@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+.card {
+  background-color: hsl(214, 20%, 12%);
+  border-radius: 15px;
+  width: 350px;
+  padding: 20px;
+}
+
+.maincard {
+  padding: 20px;
+}
+
+.star {
+  background-color: hsl(213, 20%, 22%);
+  display: flex;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.heading {
+  color: white;
+  margin-bottom: 10px;
+}
+.para {
+  color: hsl(216, 12%, 54%);
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.rating button {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: hsl(213, 20%, 22%);
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 14px;
+  cursor: pointer;
+  border: none;
+}
+.rating button:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+.rating button:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.submit_button {
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  border-radius: 24px;
+  padding: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.submit_button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.rating_section {
+  text-align: center;
+}
+.text {
+  background-color: hsl(213, 20%, 22%);
+  color: hsl(25, 97%, 53%);
+  width: fit-content;
+  font-size: 14px;
+  margin: 14px auto;
+  border-radius: 14px;
+  padding: 6px;
+}
+.checked {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.title {
+  color: white;
+}
+.paragraph {
+  color: hsl(216, 12%, 54%);
+}
